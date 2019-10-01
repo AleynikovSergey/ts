@@ -1,0 +1,35 @@
+{
+  "exclude": [ "node_modules", "**/*.test.tsx"],
+  "include": [ "src" ],
+  "compilerOptions": {
+    "allowJs": false,
+    "declaration": true,
+    "module": "commonjs",
+    "outDir": "./lib",
+    "rootDir": "./src",
+
+    "moduleResolution": "node",
+    "target": "es5",
+
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "pretty": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+
+    "jsx": "react"
+  }
+}

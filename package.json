@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "testProject",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "3.4.3"
+  }
+}
