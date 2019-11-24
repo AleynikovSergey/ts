@@ -1,0 +1,10 @@
+# Начальное время
+TimeBegin 23:13
+# Конечное время
+TimeEnd 25:14
+# Все объемы в литрах
+VThai 79200
+VWaterBegin 220
+VWaterEnd 227
+# Площадь в m^2
+SThai 160
